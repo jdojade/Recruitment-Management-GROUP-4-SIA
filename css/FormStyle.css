@@ -1,0 +1,150 @@
+
+
+body{
+	background-color: #d4ecf3;
+	font-family: Roboto,Sans-serif;
+}
+.form{
+	height: 1100px;
+	width: 600px;
+	margin: auto;
+}
+.top-title{
+    margin-top: 20px;
+    padding: 15px;
+    width:620px;
+    height: 150px;
+    border: 1px solid #ddddda;
+    justify-self: center;
+    border-radius: 10px;
+    margin: 15px;
+    background: linear-gradient(to bottom right, #4a707a,#7697a0,#94b0b7,#c2cbc5);
+}
+
+.top-title img{
+    width: 60px;
+   margin-right: 90%;
+}
+
+.top-title h1{
+    font-family: "Allura",cursive;
+    font-size: 73px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    transform: translateY(-84px) translateX(135px);
+   
+}
+.required{
+font-size: 13px;
+color: red;
+}
+.title-div{
+	height: 100px;
+	width: 600px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+	border-top: 8px solid #4a707a;
+	padding: 25px;
+}
+.container{
+	height: 150px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+}
+.container-radio{
+	height: 37px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+}
+.name{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 15px;
+}
+.input-div{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+}
+.btn{
+	height: 36px;
+	width: 100px;
+	background-color: #4a707a;
+	border-radius: 5px;
+	font-size: 14px;
+	letter-spacing: .5px;
+	font-weight: 540;
+	border: none;
+	padding: 10px;
+	position: absolute;
+	margin: 15px;
+	color: white;
+}
+.last-div h2{
+	text-align: center;
+	padding-top: 50px;
+	color: #a2a4a6;
+	font-weight: 200;
+}
+.term{
+	font-size: 12px;
+	padding-left: 65px;
+	padding-top: 5px;
+	position: absolute;
+}
+.never{
+	padding-left: 15px;
+	font-size: 12px;
+	padding-top: 70px;
+	font-weight: 400;
+
+}
+.container-radio #radioId{
+	margin-top: 12px;
+	margin-left: 12px;
+}
+.container .con-address{
+	width: 600px;
+}
+/* .radio__radio{
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid #d8e4e2;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.radio__radio::after{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #4a707a;
+    border-radius: 50%;
+
+    transform: scale(0);
+}
+
+.radio__input:checked + .radio__radio::after{
+    transform: scale(1);
+} */
+
+.buttons{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 780px;
+    margin: 15px;
+}

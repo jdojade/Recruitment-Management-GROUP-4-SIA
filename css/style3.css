@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+.contentAdmin{
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+.contactFormAdmin{
+    width: 50%;
+    padding: 35px;
+    background: #f0f0f0;
+    border-radius: 18px;
+}
+.profile-contentAd{
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.labelsAd{
+    margin-top: 20px;
+    justify-content: center;
+    width: 500px;
+    height: 30px;
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 6%;
+  
+}
+.labelsAd label{
+    text-transform: uppercase;
+    margin-right: 22%;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+   
+}
+select{
+    border:2px solid #7697a0;
+  
+}
+.labelsAd .titleAd{
+    padding-top: 2px;
+    padding-left: 35px;
+    text-align: center;
+    width: 300px;
+    height: 34px;
+    font-size: 12px;
+    background-color: #5a6869;
+    border:2px solid #5a6869;
+    color: #f0f0f0;
+    border-radius: 5px;
+    
+}
+#username,#password,#name,#email{
+    text-align: center;
+    border-color: #7697a0;
+    width: 300px;
+    background-color: #ffffff;
+    height: 34px;
+    border-radius: 5px;
+}
+#AccType{
+    text-align: left;
+    border-color: #7697a0;
+    width: 300px;
+    background-color: #ffffff;
+    height: 34px;
+    border-radius: 5px;
+}
+
+.upload-box{
+    font-size :13px;
+    background:white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #808080;
+    width: 280px;
+    outline: none;
+    margin-bottom: 5%;
+}
+
+::-webkit-file-upload-button{
+    color:white;
+    background-color: #333e41;
+    padding: 20px;
+    border:none;
+    border-radius: 30px;
+    box-shadow: 1px 0 1px 1px #80a1a8;
+
+}
+::-webkit-file-upload-button:hover{
+    background-color: #90b7b8;
+    color: #121212;
+    transition: 0.5s;
+}
+.btn-Ad{
+    text-decoration: none;
+    padding: 10px 24px;
+    background:#4a707a;
+    text-transform: uppercase;
+    color: #f2f3f4;
+    position: relative;
+    left: 40%;
+    border-radius: 5px;
+}
+/* -------------------------Login-------------------------- */
+.bgAdmin {
+    text-align: center;
+}
+.bgAdmin .head {
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #2F4858;
+}
+.bgAdmin p {
+    margin-left: 2%;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 20px;
+    line-height: 10px;
+    color: #192841;
+}
+.formhead {
+    font-size: 36px;
+    color: #1e1e1f;
+    text-align: center;
+}

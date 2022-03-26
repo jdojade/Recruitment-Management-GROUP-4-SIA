@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;0,700;0,900;1,100;1,200;1,500;1,600&display=swap');
+
+
+.labels{
+    margin-top:18px;
+    justify-content: center;
+    width: 100%;
+    height: 28px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row; 
+}
+.labels label{
+    text-transform:uppercase;
+    font-size: 20px;
+    text-align: center;
+   
+   font-weight: 400;
+}
+.labels .title{
+    padding-top: 5px;
+    text-align: center;
+    width: 180px;
+    height: 30px;
+    background-color: #4a707a;
+    border-radius: 8px;
+    color: #f0f0f0;
+    
+}
+#name,#subject,#email{
+    text-align: center;
+    margin-left:5px;  
+    border-radius: 8px;
+    border-color: #7697a0;
+    width: 270px;
+    background-color: #ddddda;
+    height: 28px;
+}
+
+
+.h3{
+    margin: 60px 0 ;
+    text-align: center;
+    font-family: 'century gothic',sans-serif;
+    text-transform: uppercase;
+    color: #7697a0;
+    font-weight: bold;
+    font-size: 30px;
+}
+.h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 40px 0 0 0;
+    text-align: center;
+    color: #7697a0;
+}
+
+.sent-notification{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    text-align: center;
+    color: #7697a0;
+}
+#body{
+    
+    resize: none;
+    padding: 30px;
+    width: 700px;
+    height: 300px;
+    border: 2px solid #4a707a;
+    border-radius: 20px;
+    
+}
+#body:active{
+    border: 2px solid #4a707a;
+    border-radius: 20px;
+}
+
+#submit-btn{
+    background-color: #4a707a; 
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+#submit-btn:hover{
+    background-color: #c2cbc5; 
+    color: black;
+    transition: 1s;
+    cursor: pointer;
+}

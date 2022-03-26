@@ -1,0 +1,54 @@
+.job-listing{
+    padding: 30px;
+    padding-top: 150px;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+.job-img, .job-dt{
+    float: left;
+}
+
+.job-dt{
+    width: 55%;
+}
+
+.job-img{
+    width: 40%;
+}
+
+.job-img img{
+    width: 65%;
+    padding: none;
+    border-radius: 10px;
+    float: right;
+}
+
+.jobs{
+    padding: 20px;
+    padding-bottom: 25px;
+    border: 2px transparent solid;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+    height: 200px;
+    /* overflow: hidden; */
+}
+
+.jobs a {
+    color: white;
+    background-color: rgb(214, 116, 134);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.jobs a:hover{
+    color: white;
+    background-color: rgb(136, 130, 131);
+}
+
+.jobs:hover{
+    border: 2px rgb(214, 116, 134) solid;
+}

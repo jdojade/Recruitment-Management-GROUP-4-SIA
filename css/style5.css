@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content:space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5%;
+    padding: 25px 100px;
+    z-index: 100000;
+
+}
+
+header.sticky{
+    padding: 6px 100px;
+    height: 10vh;
+    background: #4A707A;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 25px 25px;
+    position: relative;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+header ul li a:hover{
+    color: #94B0B7;
+
+
+}
+
+header ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+header ul li:hover::after{
+    width: 100%;
+    color: #94B0B7;
+}
+
+header.sticky ul li a{
+    color: #fff;  
+}
+
+header.sticky ul li a:hover{
+    color: #94B0B7;;  
+}
+
+header img{
+    height: 50px;
+    width: 50px;  
+}
+
+#banner{
+    min-height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Employee.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.btn-1{
+    display: inline-block;
+    text-decoration: none;
+    color: #D6D6D6;
+    border: 1px solid #D6D6D6;
+    padding: 8px 36px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn-1:hover{
+    border: 1px solid #fff;
+    background: #fff;
+    transition: 0.5s;    
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.cta h1{
+    text-align: center;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 52px;
+}
+.cta{
+    margin: 100px auto;
+    width: 95%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img-acc-clerk.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 100px;
+}
+.cta p{
+    margin: 10px 40px;
+    font-size: 22px;
+    color: #D6D6D6;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.sec3 {
+    /* background-image: linear-gradient(to left,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 1)), url("~\img\telemarket.jpg"); */
+    background-size: cover;
+    color: white;
+    padding: 150px;
+    padding-left: 450px;
+    text-align: right;
+    margin:  auto;
+    height: 600px;
+}
+
+.sec3 label {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.sec3 p {
+    font-size: 28px;
+    color: rgb(207, 204, 204);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* .images {
+    color: #fff;
+}
+
+.images h1 {
+    color: #fff;
+} */
+
+.images p {
+  font-size: 28px;  
+  /* color: #fff; */
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer{
+    background: #94B0B7;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: underline;
+    color:#fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+
+}
+.socials a.hover i{
+    color: #fff;
+
+}
+.footer-bottom{
+    background: #2C2B30;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    height: 40px;
+    color: white;
+    bottom: 0%;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    color: #94B0B7;
+    font-weight: 200;
+}
+
+
+/* -------------------------Login-------------------------- */
+
+
+.bg {
+    background-image: linear-gradient(To left, rgb(0, 0, 0, 0),rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 1), rgb(0, 0, 0, 1)), url("bg3.jpg"); 
+    background-size: contain;
+    padding: 100px 700px 200px 150px;
+    text-align: center;
+}
+
+.bg .head {
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #fff;
+}
+
+.bg p {
+    font-size: 22px;
+    letter-spacing: 20px;
+    line-height: 10px;
+    color: #94B0B7;
+}
+
+.bg img {
+    width: 110px;
+    height: 100px;
+}
+
+.validation {
+    color: red;
+}
+
+button {
+    width: 250px;
+}
